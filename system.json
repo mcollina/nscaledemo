@@ -17,7 +17,7 @@
       "type": "docker",
       "dependencies": {},
       "specific": {
-        "repositoryUrl": "git@github.com:nearform/nscaledemo.git",
+        "repositoryUrl": "https://github.com/mcollina/nscaledemo.git",
         "buildScript": "web/build.sh",
         "arguments": "-e WEB_HOST=localhost -p 8000:8000 -d __TARGETNAME__ sh run.sh",
         "buildHead": 2,
